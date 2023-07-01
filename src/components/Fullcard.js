@@ -44,9 +44,9 @@ function Fullcard() {
             <BlockContent blocks={post.body}
            />
           </div>
-          <div className="mx-auto w-2/5  py-6 px-8 flex flex-row  justify-center items-center">
-          <button className="rounded-full py-3 px-10 text-cyan-950 bg-black hover:bg-sky-700 hover:text-white  ">
-            <Link
+          <div className="mx-auto w-3/5  py-8 px-18 flex flex-row  justify-center items-center">
+          <button className="rounded-full bg-sky-500/100  hover:bg-sky-700 py-3 px-12 my-4 hover:text-white  ">
+            <Link 
               to="/"
               
             >

@@ -19,8 +19,8 @@ function Home() {
     if(posts.length === 0) return <div>{<Spinner/>}</div>
   return (
     <div className="bg-slate-200 ">
-          <h1 className="text-center w-2/5 mx-auto font-bold text-sky-400 text-4xl font-serif ">TONY CHAMP<span className="text-orange-600 mx-4 font-serif ">BLOG</span> </h1>
-      <div className=" p-10 w-full mx-auto grid grid-cols-4 gap-5  bg-slate-300 grid-rows-4">
+          <h1 className="text-center w-4/5 mx-auto font-bold text-xl text-sky-400 md:text-4xl font-serif ">TONY CHAMP<span className="text-orange-600 mx-4 font-serif ">BLOG</span> </h1>
+      <div className=" p-10 w-full  grid mx-auto bg-slate-300 md:grid-cols-4 gap-5 ">
      
     {posts?.map((post) =>(
         <div key={post.id} className="flex flex-col ">
